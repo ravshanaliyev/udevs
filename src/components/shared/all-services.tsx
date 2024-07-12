@@ -3,7 +3,7 @@ import ServiceModal from './service-modal'
 const AllServices = () => {
     return (
         <>
-            <ServiceModal hashtag='mobile' title="Mobile applications" desc="In collaboration with startups, we have learned how to create a creative and functional user interface for mobile applications." img={'https://udevs.io/static/mobile_dev-6180df87085fd146c501a19e6156fbd2.png'}
+            <ServiceModal hashtag='mobile' title="Mobile Apps" desc="In collaboration with startups, we have learned how to create a creative and functional user interface for mobile applications." img={'https://udevs.io/static/mobile_dev-6180df87085fd146c501a19e6156fbd2.png'}
                 modules={[
                     {
                         name: "iOS",
@@ -101,7 +101,7 @@ const AllServices = () => {
                         image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHZpZXdCb3g9IjAgMCA1NiA1NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiBmaWxsPSIjQzRDNEM0IiBmaWxsLW9wYWNpdHk9IjAuMDEiLz4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxwYXRoIGQ9Ik0xMy4zMzMgMTMuMzczM0g0Mi42NjY0VjQxLjkwNjdIMTMuMzMzVjEzLjM3MzNaIiBmaWxsPSIjMjEwQjAwIi8+CjxwYXRoIGQ9Ik0xMy4zMzMzIDEzLjM3MzhINDIuNjY2N1Y0MS45MDczSDEzLjMzMzNWMTMuMzczOFpNMTIgNDMuMjQwNkg0NC4wMDAxVjEyLjA0MDVIMTJWNDMuMjQwNlpNMzIuOTYgMjMuMTYwNkMzMi45NiAyMy4wNTM5IDMzIDIzLjAwMDUgMzMuMTIgMjMuMDAwNUgzNS4yMTM0QzM1LjMyIDIzLjAwMDUgMzUuMzczNCAyMy4wNDA1IDM1LjM3MzQgMjMuMTYwNlYzMy42ODA2QzM1LjM3MzQgMzMuNzg3MiAzNS4zNDY3IDMzLjg0MDYgMzUuMjEzNCAzMy44NDA2SDMzLjE0NjdDMzMuMDEzNCAzMy44NDA2IDMyLjk3MzMgMzMuNzczOSAzMi45NzMzIDMzLjY2NzNWMjMuMTYwNkgzMi45NlpNMzIuODEzNCAyMC4xMzM5QzMyLjgxMzQgMTkuMjgwNSAzMy40MTMzIDE4Ljc3MzkgMzQuMTczNCAxOC43NzM5QzM0Ljk4NjcgMTguNzczOSAzNS41MzM0IDE5LjMyMDUgMzUuNTMzNCAyMC4xMzM5QzM1LjUzMzQgMjEuMDEzOSAzNC45NjAxIDIxLjQ5MzggMzQuMTQ2NyAyMS40OTM4QzMzLjM3MzMgMjEuNDkzOSAzMi44MTM0IDIxLjAxMzkgMzIuODEzNCAyMC4xMzM5Wk0yNi44MTM0IDI3LjU0NzJDMjYuNDQwMSAyNi4wNjcyIDI1LjU2MDEgMjIuODQwNSAyNS4yMjY3IDIxLjI4MDVIMjUuMkMyNC45MiAyMi44NDA1IDI0LjIxMzQgMjUuNDgwNSAyMy42NTM0IDI3LjU0NzJIMjYuODEzNFpNMjMuMTA2NyAyOS43MDczTDIyLjA1MzMgMzMuNzA3M0MyMi4wMjY3IDMzLjgxMzkgMjEuOTg2NyAzMy44NDA1IDIxLjg1MzQgMzMuODQwNUgxOS44OTM0QzE5Ljc2IDMzLjg0MDUgMTkuNzMzMyAzMy44MDA1IDE5Ljc2IDMzLjY0MDZMMjMuNTQ2NyAyMC4zODcyQzIzLjYxMzQgMjAuMTQ3MiAyMy42NTMzIDE5LjkzMzggMjMuNjggMTkuMjgwNUMyMy42OCAxOS4xODcyIDIzLjcyIDE5LjE0NzIgMjMuNzg2NyAxOS4xNDcySDI2LjU4NjdDMjYuNjggMTkuMTQ3MiAyNi43MiAxOS4xNzM5IDI2Ljc0NjcgMTkuMjgwNUwzMC45ODY3IDMzLjY2NzJDMzEuMDEzMyAzMy43NzM4IDMwLjk4NjcgMzMuODQwNSAzMC44OCAzMy44NDA1SDI4LjY2NjdDMjguNTYgMzMuODQwNSAyOC40OTMzIDMzLjgxMzkgMjguNDY2NyAzMy43MjA2TDI3LjM3MzMgMjkuNzA3M0gyMy4xMDY3WiIgZmlsbD0iI0ZGN0YxOCIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJ3aGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTIgMTIpIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg=='
                     },
                 ]} vertical />
-            <ServiceModal hashtag='optimize' bg title="Optimization Infrastructure" desc="Our experienced professionals will help you optimize your infrastructure" img={'https://udevs.io/static/desktop-be2444bb4c87961054714533a5d5a728.png'}
+            <ServiceModal hashtag='optimize' bg title="Optimization" desc="Our experienced professionals will help you optimize your infrastructure" img={'https://udevs.io/static/desktop-be2444bb4c87961054714533a5d5a728.png'}
                 modules={[
                     {
                         name: "Architecture",

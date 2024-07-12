@@ -3,9 +3,9 @@ const ServiceModal = ({ bg, title, desc, img, modules, technos, hashtag, vertica
     return (
         <div id={hashtag} className={`py-8 md:py-16 ${bg ? 'bg-[#f4f7ff]' : 'bg-white'}`}>
             <div className="container">
-                <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-5 md:mb-6">{title}</h1>
                 <div className={`flex flex-col-reverse ${vertical ? 'md:flex-row' : 'md:flex-row-reverse'} items-center justify-between gap-8 md:gap-16`}>
                     <div className="w-full md:w-1/2">
+                        <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-5 md:mb-6">{title}</h1>
                         <p className="text-base md:text-2xl text-[#464359] font-semibold leading-snug">{desc}</p>
                         <div className="grid grid-cols-3 gap-x-2 gap-y-4 md:gap-5 mt-4 md:mt-8">
                             {
@@ -36,7 +36,7 @@ const ServiceModal = ({ bg, title, desc, img, modules, technos, hashtag, vertica
                         }
                     </div>
                     <div className="w-full md:w-1/2 p-5 h-full" style={{ backgroundImage: "url(https://udevs.io/static/bg_pattern-bfa00f19a06604ab492274cd3d9ea5cf.png)", backgroundSize: "cover", backgroundPosition: "center" }}>
-                        <img className="w-full h-full" src={img} alt="" />
+                        <img data-aos="zoom-in" className="w-full h-full" src={img} alt="" />
                     </div>
                 </div>
             </div>

@@ -10,8 +10,8 @@ const Team = () => {
                         <h2 className="text-[64px] md:text-[120px] font-bold text-primary">100+</h2>
                         <h3 className="text-[24px] md:text-[40px] font-bold text-[#18191f]">Dedicated team</h3>
                     </div>
-                    <div className="w-full md:w-1/2 h-full">
-                        <img src="https://udevs.io/static/teamIcon-7e3107c853b8ec1d129a87af0e68945a.svg" alt="" />
+                    <div className="w-full md:w-1/2 h-full" >
+                        <img data-aos="zoom-in" src="https://udevs.io/static/teamIcon-7e3107c853b8ec1d129a87af0e68945a.svg" alt="" />
                     </div>
                 </div>
             </div>
