@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Header = () => {
     return (
-        <div className="container py-10 ">
+        <div className="container py-8 ">
             <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 h-fit md:h-[600px]">
                 <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-4">
                     <img className="w-[125px] md:w-[250px] h-fit" src={Logo} alt="Logo" />

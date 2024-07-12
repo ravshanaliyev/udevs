@@ -7,12 +7,12 @@ import Team from '@/assets/team.svg'
 
 const Services = () => {
     return (
-        <div className="container  my-8 md:my-12">
+        <div className="container  mt-12 mb-12 md:mb-24">
             <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-4 md:mb-6">Our Services</h1>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-4 md:gap-8">
                 {
                     service_data.map((item, index) => (
-                        <div key={index} className="flex flex-col gap-4 bg-[#f4f7ff] p-4 md:p-8 rounded-lg">
+                        <div key={index} className="flex flex-col gap-6 bg-[#f4f7ff] p-4 md:p-8 rounded-lg">
                             <img className="w-[35px] h-[35px]" src={item.image} alt={item.name} />
                             <p className="text-base md:text-xl text-[#18191f] font-semibold">{item.name}</p>
                         </div>
