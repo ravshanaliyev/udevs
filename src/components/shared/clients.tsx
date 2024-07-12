@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 const Clients = () => {
     return (
-        <div className="my-8 md:my-16">
+        <div id="clients" className="my-8 md:my-16">
             <h1 className="container text-[32px] md:text-[64px] font-bold text-primary mb-4 md:mb-6">Clients</h1>
             <div className="my-5 md:my-10">
                 <Marquee gradient={false} speed={40}>

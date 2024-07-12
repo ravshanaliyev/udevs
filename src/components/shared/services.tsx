@@ -7,7 +7,7 @@ import Team from '@/assets/team.svg'
 
 const Services = () => {
     return (
-        <div className="container  mt-12 mb-12 md:mb-24">
+        <div id="service" className="container  mt-12 mb-12 md:mb-24">
             <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-4 md:mb-6">Our Services</h1>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-4 md:gap-8">
                 {

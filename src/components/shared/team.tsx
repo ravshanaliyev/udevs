@@ -1,7 +1,7 @@
 
 const Team = () => {
     return (
-        <div className="bg-[#f4f7ff] py-8 md:py-12 ">
+        <div id="command" className="bg-[#f4f7ff] py-8 md:py-12 ">
             <div className="container">
                 <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-4 md:mb-6">Team</h1>
                 <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-16">

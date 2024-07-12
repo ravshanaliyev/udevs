@@ -1,6 +1,7 @@
 import AllServices from "@/components/shared/all-services"
 import Clients from "@/components/shared/clients"
 import Contact from "@/components/shared/contact"
+import Footer from "@/components/shared/footer"
 import Header from "@/components/shared/header"
 import HowWeWork from "@/components/shared/how-we-work"
 import Navbar from "@/components/shared/navbar"
@@ -29,6 +30,7 @@ const Home = () => {
             <Portofolio />
             <HowWeWork />
             <Contact />
+            <Footer />
         </div>
     )
 }
