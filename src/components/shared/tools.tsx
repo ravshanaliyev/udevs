@@ -1,7 +1,7 @@
 import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { tools_data } from "@/lib/data";
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 const Tools = () => {
     const [selectedCategory, setSelectedCategory] = useState<any>(null);
     const categories = tools_data.map((item) => item.key_route)
