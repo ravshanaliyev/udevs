@@ -29,7 +29,7 @@ const Header = () => {
                         repeat={Infinity}
                         className="text-[24px] md:text-[40px] text-primary font-bold"
                     />
-                    <Link className="hidden md:block" to="#contact"><Button className="py-[24px] px-[52px] text-lg">Contact </Button></Link>
+                    <Link className="hidden md:block" to="#contact"><Button className="h-[52px] w-[200px] text-xl font-semibold">Contact </Button></Link>
                 </div>
                 <div className="w-full md:w-1/2 h-full">
                     <img className="w-full h-full" src={HeaderImg} alt="" />
