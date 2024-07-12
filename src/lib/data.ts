@@ -39,176 +39,211 @@ export const tools_data = [
     {
         name: "Next.js",
         image: Nextjs,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "React.js",
         image: Reactjs,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Javascript",
         image: Javascript,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Ant Design",
         image: Ant,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Gatsby.JS",
         image: Gatsby,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Vue.JS",
         image: Vue,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Sass",
         image: Sasss,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "Material UI",
         image: MaterialUI,
-        key_route: "frontend"
+        key_route: "frontend",
+        is_selected: false
     },
     {
         name: "PostgreSQL",
         image: Postgres,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "Python",
         image: Pythin,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "Node.js",
         image: Ndjs,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "PHP",
         image: Phpp,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "Go",
         image: Goo,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "MongoDB",
         image: Mongos,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "Cassandra",
         image: Casandra,
-        key_route: "backend"
+        key_route: "backend",
+        is_selected: false
     },
     {
         name: "Prometheus",
         image: Promotheus,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Loki",
         image: Loki,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Bitbucket",
         image: Bitbucket,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Gitlab",
         image: Gitlab,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "ELK",
         image: ELK,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Grafana",
         image: Grafana,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Terraform",
         image: Terraform,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Docker",
         image: Docker,
-        key_route: "devops"
+        key_route: "devops",
+        is_selected: false
     },
     {
         name: "Invision",
         image: Invision,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Figma",
         image: Figma,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Sketch",
         image: Sketch,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Zeplin",
         image: Zeplin,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Illustrator",
         image: Illustrator,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Photoshop",
         image: Photoshop,
-        key_route: "ui/ux"
+        key_route: "ui/ux",
+        is_selected: false
     },
     {
         name: "Kotlin",
         image: Kotlin,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
     {
         name: "Android",
         image: Android,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
     {
         name: "Java",
         image: Java,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
     {
         name: "IOS",
         image: IOS,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
     {
         name: "Swift",
         image: Swift,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
     {
         name: "Flutter",
         image: Flutter,
-        key_route: "mobile"
+        key_route: "mobile",
+        is_selected: false
     },
 ]

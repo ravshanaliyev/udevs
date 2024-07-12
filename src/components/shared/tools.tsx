@@ -7,6 +7,7 @@ const Tools = () => {
     const [AllData, setAllData] = useState<any>([]);
     const categories = tools_data.map((item) => item.key_route)
     const uniqueCategories = [...new Set(categories)];
+
     useEffect(() => {
         if (singleProduct) {
             const filteredProducts = singleProduct ? tools_data.filter((product: any) => product.key_route === singleProduct) : tools_data

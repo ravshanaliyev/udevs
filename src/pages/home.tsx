@@ -1,3 +1,4 @@
+import AllServices from "@/components/shared/all-services"
 import Header from "@/components/shared/header"
 import Navbar from "@/components/shared/navbar"
 import Services from "@/components/shared/services"
@@ -11,6 +12,7 @@ const Home = () => {
             <Header />
             <Services />
             <Team />
+            <AllServices />
             <Tools />
         </div>
     )
