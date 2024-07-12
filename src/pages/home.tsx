@@ -1,6 +1,7 @@
 import AllServices from "@/components/shared/all-services"
 import Clients from "@/components/shared/clients"
 import Header from "@/components/shared/header"
+import HowWeWork from "@/components/shared/how-we-work"
 import Navbar from "@/components/shared/navbar"
 import Portofolio from "@/components/shared/portofolio"
 import Services from "@/components/shared/services"
@@ -25,6 +26,7 @@ const Home = () => {
             <Tools />
             <Clients />
             <Portofolio />
+            <HowWeWork />
         </div>
     )
 }
