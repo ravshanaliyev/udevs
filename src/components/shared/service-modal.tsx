@@ -1,5 +1,5 @@
 
-const ServiceModal = ({ bg, title, desc, img, modules, technos, hashtag, vertical }: { bg?: boolean, title: string, desc: string, img: string, modules: any, technos?: any, hashtag?: string, vertical?: boolean }) => {
+const ServiceModal = ({ bg, title, desc, img, modules, technos, hashtag, vertical, portfolio }: { bg?: boolean, title: string, desc: string, img: string, modules: any, technos?: any, hashtag?: string, vertical?: boolean, portfolio?: boolean }) => {
     return (
         <div id={hashtag} className={`py-8 md:py-16 ${bg ? 'bg-[#f4f7ff]' : 'bg-white'}`}>
             <div className="container">
@@ -7,7 +7,12 @@ const ServiceModal = ({ bg, title, desc, img, modules, technos, hashtag, vertica
                     <div className="w-full md:w-1/2">
                         <h1 className="text-[32px] md:text-[64px] font-bold text-primary mb-5 md:mb-6">{title}</h1>
                         <p className="text-base md:text-2xl text-[#464359] font-semibold leading-snug">{desc}</p>
-                        <div className="grid grid-cols-3 gap-x-2 gap-y-4 md:gap-5 mt-4 md:mt-8">
+                        {
+                            portfolio && (
+                                <h3 className="text-[20px] md:text-[24px]  font-bold text-[#464359]  mt-2">What we did?</h3>
+                            )
+                        }
+                        <div className="grid grid-cols-3 gap-x-2 gap-y-4 md:gap-5 mt-4 md:mt-6">
                             {
                                 modules.map((item: any, index: number) => (
                                     <div key={index} className={`flex flex-col items-start gap-3 ${bg ? 'bg-[#e0e8ff]' : 'bg-[#f4f7ff]'} p-4 md:p-5 rounded-lg`}>
