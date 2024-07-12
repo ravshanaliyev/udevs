@@ -14,7 +14,7 @@ import Portofio4 from '@/assets/portfolio4.svg'
 import Rus from '@/assets/ru.svg'
 import Eng from '@/assets/en.svg'
 import { ChevronDown, Menu } from "lucide-react"
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, } from "@/components/ui/sheet"
 
 const Navbar = () => {
     return (
