@@ -13,7 +13,9 @@ import Portofio3 from '@/assets/portfolio3.svg'
 import Portofio4 from '@/assets/portfolio4.svg'
 import Rus from '@/assets/ru.svg'
 import Eng from '@/assets/en.svg'
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, Menu } from "lucide-react"
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger, } from "@/components/ui/sheet"
+
 const Navbar = () => {
     return (
         <div className="border-b sticky top-0 z-50 bg-white">
@@ -22,7 +24,23 @@ const Navbar = () => {
                     <Link to="/">
                         <img className="w-[96px] h-[32px]" src={Logo} alt="Logo" />
                     </Link>
-                    <ul className="flex items-center gap-8 font-bold text-sm">
+                    <Sheet>
+                        <SheetTrigger asChild>
+                            <Menu className="md:hidden cursor-pointer" />
+                        </SheetTrigger>
+                        <SheetContent className="w-full p-4">
+                            <img className="w-[96px] h-[32px]" src={Logo} alt="" />
+                            <div className="flex flex-col gap-4 justify-center items-center mt-8">
+                                <ul className="flex flex-col gap-4 text-2xl font-bold">
+                                    <li><Link to="#services">Services</Link></li>
+                                    <li><Link to="#clients">Clients</Link></li>
+                                    <li><Link to="#command">Command</Link></li>
+                                </ul>
+                                <Button className="py-[24px] w-full text-lg">Contact </Button>
+                            </div>
+                        </SheetContent>
+                    </Sheet>
+                    <ul className="hidden md:flex items-center gap-8 font-bold text-sm">
                         <li><Link to="#direction">Direction</Link></li>
                         <li><Link to="#command">Command</Link></li>
                         <li>
